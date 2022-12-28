@@ -347,7 +347,7 @@ html{
  
   header{
     @include base2_display;
-    gap: 7rem;
+    gap: 6rem;
     .logotime{
       @include base2_display;
       gap: 1rem;
@@ -356,11 +356,11 @@ html{
         font-size: 20px;
       }
     }
-    .fa-bell{
-      font-size: 25px;
+    .fa-bell-o{
+      font-size: 1.5rem;
     }
-    .fa-heart{
-      font-size: 25px;
+    .fa-heart-o{
+      font-size: 1.5rem;
     }
   }
   main{
@@ -374,6 +374,9 @@ html{
     }
     .fa-search{
       color: $gray;
+      position: fixed;
+      top: 6rem;
+      left: 3rem;
     }
     .row1,.row2{
       display: flex;
@@ -421,14 +424,16 @@ html{
 
 }
 .all-icons{
-  width: 58%;
+  width: 23rem;
   height: 3rem;
   background-color: white;
   display: flex;
   justify-content: center;
   gap: 3rem;
   align-items: center;
-  margin-left: 5rem;
+  margin-left: 2rem;
+  position: sticky;
+  bottom: 0;
   .fa{
     font-size: 26px;
   }

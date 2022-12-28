@@ -342,7 +342,7 @@ html body .container5 .bottom .btnNext {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 7rem;
+  gap: 6rem;
 }
 .container_home1 header .logotime {
   display: flex;
@@ -355,11 +355,11 @@ html body .container5 .bottom .btnNext {
   color: #9d9d9d;
   font-size: 20px;
 }
-.container_home1 header .fa-bell {
-  font-size: 25px;
+.container_home1 header .fa-bell-o {
+  font-size: 1.5rem;
 }
-.container_home1 header .fa-heart {
-  font-size: 25px;
+.container_home1 header .fa-heart-o {
+  font-size: 1.5rem;
 }
 .container_home1 main {
   display: flex;
@@ -375,6 +375,9 @@ html body .container5 .bottom .btnNext {
 }
 .container_home1 main .fa-search {
   color: #9d9d9d;
+  position: fixed;
+  top: 6rem;
+  left: 3rem;
 }
 .container_home1 main .row1, .container_home1 main .row2 {
   display: flex;
@@ -416,14 +419,16 @@ html body .container5 .bottom .btnNext {
 }
 
 .all-icons {
-  width: 58%;
+  width: 23rem;
   height: 3rem;
   background-color: white;
   display: flex;
   justify-content: center;
   gap: 3rem;
   align-items: center;
-  margin-left: 5rem;
+  margin-left: 2rem;
+  position: sticky;
+  bottom: 0;
 }
 .all-icons .fa {
   font-size: 26px;
