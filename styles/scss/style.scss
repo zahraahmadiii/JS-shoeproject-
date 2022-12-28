@@ -193,7 +193,7 @@ html{
   }
 }
 
-.container_login1{
+.container_login{
   .wraper{
     @include base1_display;
     main{
@@ -241,48 +241,6 @@ html{
   }
 }
 
-// .container_login2{
-//   .wraper{
-//     @include base1_display;
-//     main{
-//       margin-bottom: 17rem;
-//       .topMain{
-//         @include base1_display;
-//         margin-top: 9rem;
-//         gap: 3rem;
-//         p{
-//           font-size: 2.5rem;
-//         }
-//        }
-//        .bottomMain{
-//          @include base1_display;
-//          gap: 1rem;
-//          .email{
-//           @include baseInput;
-//          }
-//          .pwd{
-//           @include baseInput;
-//          }
-//          .fa-envelope{
-//           position: fixed;
-//           left: 1.8rem;
-//           top: 27.7rem;
-//          }
-//          .fa-lock{
-//           position: fixed;
-//           left: 1.8rem;
-//           top: 30.9rem;
-//          }
-//          .check{
-//           display: flex;
-//          }
-//        }
-//     }
-//     .btnNext{
-//       @include signInbtn;
-//      }
-//   }
-// }
 
 .container_home3{
   main{
@@ -426,7 +384,7 @@ html{
 .all-icons{
   width: 23rem;
   height: 3rem;
-  background-color: white;
+  background-color: $white;
   display: flex;
   justify-content: center;
   gap: 3rem;

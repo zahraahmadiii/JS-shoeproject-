@@ -204,63 +204,63 @@ html body .container5 .bottom .btnNext {
   font-size: 1.5rem;
 }
 
-.container_login1 .wraper {
+.container_login .wraper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container_login1 .wraper main {
+.container_login .wraper main {
   margin-bottom: 17rem;
 }
-.container_login1 .wraper main .topMain {
+.container_login .wraper main .topMain {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 9rem;
   gap: 3rem;
 }
-.container_login1 .wraper main .topMain p {
+.container_login .wraper main .topMain p {
   font-size: 2.5rem;
 }
-.container_login1 .wraper main .bottomMain {
+.container_login .wraper main .bottomMain {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
-.container_login1 .wraper main .bottomMain .email {
+.container_login .wraper main .bottomMain .email {
   width: 22rem;
   height: 2rem;
   background-color: rgb(230, 230, 230);
   border: none;
   padding-left: 2rem;
 }
-.container_login1 .wraper main .bottomMain .pwd {
+.container_login .wraper main .bottomMain .pwd {
   width: 22rem;
   height: 2rem;
   background-color: rgb(230, 230, 230);
   border: none;
   padding-left: 2rem;
 }
-.container_login1 .wraper main .bottomMain .fa-envelope {
+.container_login .wraper main .bottomMain .fa-envelope {
   position: fixed;
   left: 1.8rem;
   top: 27.7rem;
 }
-.container_login1 .wraper main .bottomMain .fa-lock {
+.container_login .wraper main .bottomMain .fa-lock {
   position: fixed;
   left: 1.8rem;
   top: 30.9rem;
 }
-.container_login1 .wraper main .bottomMain .fa-eye-slash {
+.container_login .wraper main .bottomMain .fa-eye-slash {
   position: fixed;
   right: 2rem;
   top: 31rem;
 }
-.container_login1 .wraper main .bottomMain .check {
+.container_login .wraper main .bottomMain .check {
   display: flex;
 }
-.container_login1 .wraper .btnNext {
+.container_login .wraper .btnNext {
   width: 371px;
   height: 43px;
   border-radius: 47px;

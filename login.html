@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-hidden">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
-<body>
-    <div class="container_login1">
+<body class="overflow-hidden">
+    <div class="container_login">
        <header>
         <img src="images/arrow-left-short.jpg">
        </header>
@@ -23,16 +23,16 @@
        <div class="bottomMain">
         <div class="input-container">
             <i class="fa fa-envelope"></i>
-            <input type="email" class="email" name="email" placeholder="email">
+            <input type="email" class="email" name="email" placeholder="email" required>
         </div>
         <div class="input-container">
 
         <i class="fa fa-lock"></i>
-        <i class="fa fa-eye-slash"></i>
-        <input type="password" class="pwd" name="pwd" placeholder="password">
+        <i class="fa fa-eye-slash" onclick="togglepass()"></i>
+        <input type="password" class="pwd" name="pwd" placeholder="password"  minlength="6" required>
        </div>
        <div class="check">
-    <input type="checkbox" name="remember" >
+    <input type="checkbox" class="checkbox" name="remember"  onclick="check()">
        <label for="remember">Remember me</label><br>
       </div>
         
