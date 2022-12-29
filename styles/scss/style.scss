@@ -332,8 +332,14 @@ html{
     }
     .fa-search{
       color: $gray;
+<<<<<<< HEAD
       position: relative;
       left: 2rem;
+=======
+      position: fixed;
+      top: 6rem;
+      left: 3rem;
+>>>>>>> 37ecc0f7447b1579adc623e2714396f853922e71
     }
     .row1,.row2{
       display: flex;
@@ -399,6 +405,7 @@ html{
   }
  }
 
+<<<<<<< HEAD
  
  .container_product{
   .product_img{
@@ -521,3 +528,6 @@ html{
   }
  }
 }
+=======
+ 
+>>>>>>> 37ecc0f7447b1579adc623e2714396f853922e71

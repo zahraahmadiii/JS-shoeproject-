@@ -375,8 +375,14 @@ html body .container5 .bottom .btnNext {
 }
 .container_home1 main .fa-search {
   color: #9d9d9d;
+<<<<<<< HEAD
   position: relative;
   left: 2rem;
+=======
+  position: fixed;
+  top: 6rem;
+  left: 3rem;
+>>>>>>> 37ecc0f7447b1579adc623e2714396f853922e71
 }
 .container_home1 main .row1, .container_home1 main .row2 {
   display: flex;
@@ -434,6 +440,7 @@ html body .container5 .bottom .btnNext {
 }
 .all-icons .wallet {
   font-size: 24px;
+<<<<<<< HEAD
 }
 
 .container_product .product_img {
@@ -537,4 +544,6 @@ html body .container5 .bottom .btnNext {
 }
 .orders_container footer .all-icons .wallet {
   font-size: 24px;
+=======
+>>>>>>> 37ecc0f7447b1579adc623e2714396f853922e71
 }/*# sourceMappingURL=style.css.map */
