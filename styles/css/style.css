@@ -1,0 +1,540 @@
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container1 .row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16rem;
+  gap: 9px;
+}
+.container1 .row1 .img1 {
+  width: 56px;
+  height: 56px;
+}
+.container1 .row1 .img2 {
+  position: absolute;
+  left: 7.4rem;
+  top: 19.5rem;
+}
+.container1 .row1 .h_shoea {
+  font-size: 4rem;
+}
+.container1 .row2 {
+  margin-top: 18rem;
+}
+.container1 .row2 .loading {
+  display: flex;
+  justify-content: center;
+}
+.container1 .row2 .loading::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 8px solid rgb(230, 230, 230);
+  border-top-color: black;
+  border-radius: 50%;
+  animation: loading 1s linear infinite;
+}
+@keyframes loading {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container2 .welcome {
+  color: white;
+  margin-top: 35rem;
+}
+.container2 .welcome .h2 {
+  font-size: 44px;
+}
+.container2 .welcome .h1 {
+  font-size: 71px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+html {
+  width: 100%;
+  margin: 0;
+}
+html body {
+  width: 100%;
+  margin: 0;
+}
+html body .container3 .top {
+  width: 100%;
+}
+html body .container3 .top .wallpaper2 {
+  width: 100%;
+  height: 534px;
+}
+html body .container3 .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 65px;
+}
+html body .container3 .bottom .para1 {
+  font-size: 2.2rem;
+  padding: 6px;
+}
+html body .container3 .bottom .blanks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+html body .container3 .bottom .blanks .blank {
+  width: 37px;
+  height: 5px;
+  background-color: rgb(230, 230, 230);
+}
+html body .container3 .bottom #btnNext1 {
+  width: 371px;
+  height: 43px;
+  border-radius: 47px;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+}
+
+html {
+  width: 100%;
+  margin: 0;
+}
+html body {
+  width: 100%;
+  margin: 0;
+}
+html body .container4 .top {
+  width: 100%;
+}
+html body .container4 .top .wallpaper2 {
+  width: 100%;
+  height: 534px;
+}
+html body .container4 .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 65px;
+}
+html body .container4 .bottom .para1 {
+  font-size: 2.2rem;
+  padding: 6px;
+}
+html body .container4 .bottom .blanks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+html body .container4 .bottom .blanks .blank {
+  width: 37px;
+  height: 5px;
+  background-color: rgb(230, 230, 230);
+}
+html body .container4 .bottom #btnNext2 {
+  width: 371px;
+  height: 43px;
+  border-radius: 47px;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+}
+
+html {
+  width: 100%;
+  margin: 0;
+}
+html body {
+  width: 100%;
+  margin: 0;
+}
+html body .container5 .top {
+  width: 100%;
+}
+html body .container5 .top .wallpaper2 {
+  width: 100%;
+  height: 534px;
+}
+html body .container5 .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 65px;
+}
+html body .container5 .bottom .para1 {
+  font-size: 2.2rem;
+  padding: 6px;
+}
+html body .container5 .bottom .blanks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+html body .container5 .bottom .blanks .blank {
+  width: 37px;
+  height: 5px;
+  background-color: rgb(230, 230, 230);
+}
+html body .container5 .bottom .btnNext {
+  width: 371px;
+  height: 43px;
+  border-radius: 47px;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.container_login .wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container_login .wraper main {
+  margin-bottom: 17rem;
+}
+.container_login .wraper main .topMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 9rem;
+  gap: 3rem;
+}
+.container_login .wraper main .topMain p {
+  font-size: 2.5rem;
+}
+.container_login .wraper main .bottomMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.container_login .wraper main .bottomMain .email {
+  width: 22rem;
+  height: 2rem;
+  background-color: rgb(230, 230, 230);
+  border: none;
+  padding-left: 2rem;
+}
+.container_login .wraper main .bottomMain .pwd {
+  width: 22rem;
+  height: 2rem;
+  background-color: rgb(230, 230, 230);
+  border: none;
+  padding-left: 2rem;
+}
+.container_login .wraper main .bottomMain .fa-envelope {
+  position: fixed;
+  left: 1.8rem;
+  top: 27.7rem;
+}
+.container_login .wraper main .bottomMain .fa-lock {
+  position: fixed;
+  left: 1.8rem;
+  top: 30.9rem;
+}
+.container_login .wraper main .bottomMain .fa-eye-slash {
+  position: fixed;
+  right: 2rem;
+  top: 31rem;
+}
+.container_login .wraper main .bottomMain .check {
+  display: flex;
+}
+.container_login .wraper .btnNext {
+  width: 371px;
+  height: 43px;
+  border-radius: 47px;
+  background-color: #9d9d9d;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.container_home3 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.container_home3 .row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.container_home3 .row1 p {
+  font-size: 20px;
+}
+.container_home3 .row1 #shoe1 {
+  position: fixed;
+  left: 3rem;
+  top: 7rem;
+}
+.container_home3 .row1 #shoe2 {
+  position: fixed;
+  right: 3rem;
+  top: 7rem;
+}
+.container_home3 .row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.container_home3 .row2 p {
+  font-size: 20px;
+}
+.container_home3 .row2 #shoe3 {
+  position: fixed;
+  left: 2rem;
+  top: 25rem;
+}
+.container_home3 .row2 #shoe4 {
+  position: fixed;
+  right: 3rem;
+  top: 25rem;
+}
+.container_home3 .row3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.container_home3 .row3 p {
+  font-size: 20px;
+}
+.container_home3 .row3 #shoe5 {
+  position: fixed;
+  left: 3rem;
+  top: 45rem;
+}
+.container_home3 .row3 #shoe6 {
+  position: fixed;
+  right: 3rem;
+  top: 43rem;
+}
+
+.container_home1 header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+.container_home1 header .logotime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.container_home1 header .logotime p {
+  color: #9d9d9d;
+  font-size: 20px;
+}
+.container_home1 header .fa-bell-o {
+  font-size: 1.5rem;
+}
+.container_home1 header .fa-heart-o {
+  font-size: 1.5rem;
+}
+.container_home1 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.container_home1 main #gsearch {
+  width: 22rem;
+  height: 3rem;
+  padding-left: 41px;
+}
+.container_home1 main .fa-search {
+  color: #9d9d9d;
+  position: relative;
+  left: 2rem;
+}
+.container_home1 main .row1, .container_home1 main .row2 {
+  display: flex;
+  gap: 2rem;
+}
+.container_home1 main .section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container_home1 main .section2 .row3 {
+  display: flex;
+  gap: 11rem;
+}
+.container_home1 main .section2 .row3 p {
+  font-weight: bold;
+  font-size: 18px;
+}
+.container_home1 main .section3 {
+  overflow: auto;
+  width: 100%;
+}
+.container_home1 main .section3 .top {
+  width: 42rem;
+  margin-left: 2rem;
+}
+.container_home1 main .section3 .top button {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 25px;
+  background-color: white;
+  border: 2px solid black;
+  font-weight: bold;
+}
+.container_home1 main .section4 .bottom {
+  height: 40rem;
+  width: 22rem;
+  background-color: rgb(230, 230, 230);
+}
+
+.all-icons {
+  width: 23rem;
+  height: 3rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  margin-left: 2rem;
+  position: sticky;
+  bottom: 0;
+}
+.all-icons .fa {
+  font-size: 26px;
+}
+.all-icons .wallet {
+  font-size: 24px;
+}
+
+.container_product .product_img {
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  height: 42vh;
+}
+.container_product .product_img .wraper-img .shoePic {
+  position: fixed;
+  top: 4rem;
+  left: 4rem;
+  width: 18rem;
+  height: 11rem;
+}
+.container_product .product_img .blanks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 12rem;
+  position: fixed;
+  top: 21rem;
+  left: 7rem;
+}
+.container_product .product_img .blanks .blank {
+  width: 37px;
+  height: 5px;
+  background-color: #9d9d9d;
+}
+.container_product .product_img .blanks .one {
+  width: 49px;
+  height: 5px;
+}
+.container_product .product_img .blanks .two {
+  width: 49px;
+  height: 5px;
+}
+.container_product .product_img .blanks .three {
+  width: 49px;
+  height: 5px;
+}
+.container_product .allsizes p {
+  font-weight: bold;
+  font-size: 40px;
+}
+.container_product .allsizes .circles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.container_product .allsizes .circles .one {
+  padding: 17px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.container_product .allsizes .circles .two {
+  padding: 17px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.container_product .allsizes .circles .three {
+  padding: 17px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.orders_container header {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  margin-left: 1rem;
+}
+.orders_container header .left {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.orders_container header .left img {
+  width: 1.5rem;
+  height: 2rem;
+}
+.orders_container header .right .fa {
+  font-size: 2rem;
+}
+.orders_container footer .all-icons {
+  width: 23rem;
+  height: 3rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  margin-left: 2rem;
+  position: sticky;
+  bottom: 0;
+}
+.orders_container footer .all-icons .fa {
+  font-size: 26px;
+}
+.orders_container footer .all-icons .wallet {
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */

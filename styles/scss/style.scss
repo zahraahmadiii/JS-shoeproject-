@@ -1,0 +1,523 @@
+@import "variables";
+@import "mixin";
+
+
+
+.container1{
+    @include base1_display;
+    .row1{
+      @include base2_display;
+      margin-top: 16rem;
+      gap: 9px;
+        .img1{
+            width: 56px;
+            height: 56px;
+        }
+        .img2{
+            position: absolute;
+            left: 7.4rem;
+             top: 19.5rem;
+        }
+       .h_shoea{
+            font-size: 4rem;
+         }
+    }
+    .row2{
+      margin-top: 18rem;
+ 
+    .loading{
+      display: flex;
+      justify-content: center;
+    }
+    .loading::after{
+      content: "";
+      width: 30px;
+      height: 30px;
+      background-color:$white;
+      border: 8px solid $lightgray;
+      border-top-color: $black;
+      border-radius: 50%;
+      animation: loading 1s linear infinite;
+    }
+    @keyframes loading  {
+      to{
+        transform: rotate(1turn);
+      }
+    }
+}
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  .welcome{
+    color: $white;
+    margin-top: 35rem;
+    .h2{
+        font-size: 44px;
+    }
+    .h1{
+        font-size: 71px
+    }
+  }  
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+
+html{
+  width: $fullWidth;
+  // overflow: hidden;
+  margin: 0;
+  body{
+    width: $fullWidth;
+    // overflow: hidden;
+    margin: 0;
+    .container3{
+     .top{
+      width: $fullWidth;
+      .wallpaper2{
+        width:$fullWidth ;
+          height: 534px;
+      }
+     }
+      .bottom{
+        @include base1_display;
+        gap: 65px;
+        .para1{
+              font-size: 2.2rem;
+              padding: 6px;
+          }
+          .blanks{
+            @include base2_display;
+            gap: 5px;
+         
+            .blank{
+              width: 37px;
+              height: 5px;
+              background-color:$lightgray ;
+            }
+          }
+         
+          #btnNext1{
+              @include nextbtn;
+          }  
+        
+      }
+    }
+  }
+}
+
+html{
+  width: $fullWidth;
+  // overflow: hidden;
+  margin: 0;
+  body{
+    width: $fullWidth;
+    // overflow: hidden;
+    margin: 0;
+    .container4{
+     .top{
+      width: $fullWidth;
+      .wallpaper2{
+        width:$fullWidth ;
+          height: 534px;
+      }
+     }
+      .bottom{
+        @include base1_display;
+        gap: 65px;
+        .para1{
+              font-size: 2.2rem;
+              padding: 6px;
+          }
+          .blanks{
+            @include base2_display;
+            gap: 5px;
+           
+            .blank{
+              width: 37px;
+              height: 5px;
+              background-color:$lightgray ;
+            }
+          }
+          
+          #btnNext2{
+            @include nextbtn;
+          }
+      }
+    }
+  }
+}
+
+html{
+  width: $fullWidth;
+  // overflow: hidden;
+  margin: 0;
+  body{
+    width: $fullWidth;
+    // overflow: hidden;
+    margin: 0;
+    .container5{
+     .top{
+      width: $fullWidth;
+      .wallpaper2{
+        width:$fullWidth ;
+          height: 534px;
+      }
+     }
+      .bottom{
+        @include base1_display;
+        gap: 65px;
+        .para1{
+              font-size: 2.2rem;
+              padding: 6px;
+          }
+          .blanks{
+            @include base2_display;
+            gap: 5px;
+           
+            .blank{
+              width: 37px;
+              height: 5px;
+              background-color:$lightgray ;
+            }
+          }
+          
+          .btnNext{
+            @include nextbtn;
+          }
+      }
+    }
+  }
+}
+
+.container_login{
+  .wraper{
+    @include base1_display;
+    main{
+      margin-bottom: 17rem;
+      .topMain{
+        @include base1_display;
+        margin-top: 9rem;
+        gap: 3rem;
+        p{
+          font-size: 2.5rem;
+        }
+       }
+       .bottomMain{
+         @include base1_display;
+         gap: 1rem;
+         .email{
+          @include baseInput;
+         }
+         .pwd{
+          @include baseInput;
+         }
+         .fa-envelope{
+          position: fixed;
+          left: 1.8rem;
+          top: 27.7rem;
+         }
+         .fa-lock{
+          position: fixed;
+          left: 1.8rem;
+          top: 30.9rem;
+         }
+         .fa-eye-slash{
+          position: fixed;
+          right: 2rem;
+          top: 31rem;
+         }
+         .check{
+          display: flex;
+         }
+       }
+    }
+    .btnNext{
+      @include signInbtn;
+     }
+  }
+}
+
+
+.container_home3{
+  main{
+    @include base1_display;
+    margin-top: 20px;
+   
+  }
+  .row1{
+    @include base2_display;
+    gap: 1rem;
+    p{
+      font-size: 20px;
+    }
+      #shoe1{
+        position: fixed;
+        left: 3rem;
+        top: 7rem;
+      }
+      #shoe2{
+        position: fixed;
+        right: 3rem;
+        top: 7rem;
+      }
+  }
+  .row2{
+    @include base2_display;
+    gap: 1rem;
+    p{
+      font-size: 20px;
+    }
+    #shoe3{
+      position: fixed;
+      left: 2rem;
+      top: 25rem;
+    }
+    #shoe4{
+      position: fixed;
+      right: 3rem;
+      top: 25rem;
+    }
+  }
+  .row3{
+    @include base2_display;
+    gap: 1rem;
+    p{
+      font-size: 20px;
+    }
+    #shoe5{
+      position: fixed;
+      left: 3rem;
+      top: 45rem;
+    }
+    #shoe6{
+      position: fixed;
+      right: 3rem;
+     top: 43rem;
+    }
+  }
+}
+
+.container_home1{
+ 
+  header{
+    @include base2_display;
+    gap: 6rem;
+    .logotime{
+      @include base2_display;
+      gap: 1rem;
+      p{
+        color: $gray;
+        font-size: 20px;
+      }
+    }
+    .fa-bell-o{
+      font-size: 1.5rem;
+    }
+    .fa-heart-o{
+      font-size: 1.5rem;
+    }
+  }
+  main{
+    @include base1_display;
+    gap: 1rem;
+    margin-top: 1rem;
+    #gsearch{
+      width: 22rem;
+      height: 3rem;
+      padding-left: 41px;
+    }
+    .fa-search{
+      color: $gray;
+      position: relative;
+      left: 2rem;
+    }
+    .row1,.row2{
+      display: flex;
+      gap: 2rem;
+    }
+    .section2{
+      display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     .row3{
+      display: flex;
+      gap: 11rem;
+      p{
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+    }
+    .section3{
+      overflow: auto;
+      width: 100%;
+      .top{
+        width: 42rem;
+        margin-left: 2rem;
+        button{
+          width: 5rem;
+         height: 3rem;
+         border-radius: 25px;
+         background-color:$white;
+         border: 2px solid $black;
+         font-weight: bold;
+        }
+      }
+     
+    }
+    .section4{
+      .bottom{
+        height: 40rem;
+        width: 22rem;
+        background-color: $lightgray;
+      }
+    }
+    
+  }
+
+}
+.all-icons{
+  width: 23rem;
+  height: 3rem;
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  margin-left: 2rem;
+  position: sticky;
+  bottom: 0;
+  .fa{
+    font-size: 26px;
+  }
+  .wallet{
+    font-size: 24px;
+  }
+ }
+
+ 
+ .container_product{
+  .product_img{
+    width: $fullWidth;
+    background-color: $lightgray;
+    height: 42vh;
+    .wraper-img{
+      .shoePic{
+        position: fixed;
+        top: 4rem;
+        left: 4rem;
+        width: 18rem;
+        height: 11rem;
+      }
+      
+
+    }
+    .blanks{
+      @include base2_display;
+            gap: 5px;
+            width: 12rem;
+            position: fixed;
+            top: 21rem;
+            left: 7rem;
+       .blank{
+         width: 37px;
+          height: 5px;
+           background-color:$gray ;
+        }
+        .one{
+          width: 49px;
+          height: 5px;
+         
+        }
+        .two{
+          width: 49px;
+          height: 5px;
+        
+        }
+        .three{
+          width: 49px;
+          height: 5px;
+         
+        }
+
+    }
+  }
+  .allsizes{
+    p{
+      font-weight: bold;
+      font-size: 40px;
+    }
+    .circles{
+      display: flex;
+     flex-direction: row;
+     align-items: center; 
+     gap: 1rem;
+     .one{
+      padding: 17px;
+      border-radius: 50%;
+      border: 1px solid $black;
+     }
+     .two{
+      padding: 17px;
+      border-radius: 50%;
+      border: 1px solid $black;
+     }
+     .three{
+      padding: 17px;
+      border-radius: 50%;
+      border: 1px solid $black;
+     }
+     
+    }
+  }
+ }
+
+
+ .orders_container{
+  header{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    margin-left: 1rem;
+    .left{
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      img{
+        width: 1.5rem;
+        height: 2rem;
+      }
+    }
+    .right{
+      .fa{
+        font-size: 2rem;
+      }
+    }
+    
+  }
+
+  footer{
+    .all-icons{
+      width: 23rem;
+      height: 3rem;
+      background-color: $white;
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      align-items: center;
+      margin-left: 2rem;
+      position: sticky;
+      bottom: 0;
+      .fa{
+        font-size: 26px;
+      }
+      .wallet{
+        font-size: 24px;
+      }
+  }
+ }
+}
