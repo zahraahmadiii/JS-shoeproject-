@@ -1,7 +1,11 @@
 let section4=document.querySelector(".section4")
 // console.log(section4);
-// let one=document.querySelector(".one")
-// let row=document.querySelector(".row1")
+let heart=document.querySelector(".fa-heart-o")
+console.log(heart);
+heart.addEventListener("click",function(){
+  heart.style.color="red"
+  window.location.href="wishlist.html"
+})
 let iconHome=document.querySelector(".fa-home")
 iconHome.style.color="gray"
 const base_url="http://localhost:4000/allProduct"
