@@ -2,12 +2,12 @@
  "allProduct": [
     { 
      "id": 1,
-     "name": "Running Sportwear",
+     "name": "Air Jordan 3",
      "price":"$ 85",
       "size":"40" ,
       "rate":4.5,
       "sold":"5",
-      "img":"https://banner2.cleanpng.com/20180202/yqe/kisspng-adidas-originals-shoe-white-sneakers-adidas-running-shoes-products-in-kind-5a74dbc7361913.9189805515176078792216.jpg"
+      "img":"https://www.linkpicture.com/q/shoe.jpg"
     },
     {
         "id": 2,
@@ -20,7 +20,7 @@
     },
     {
         "id": 3,
-        "name": "Puma White Pigeon",
+        "name": "Puma Pigeon",
         "price":"$ 100",
          "size":"37" ,
          "rate":6,
@@ -30,7 +30,7 @@
     },
     {
         "id": 4,
-        "name": "Asics Wide Tennis Shoe",
+        "name": "Asics Tennis Shoe",
         "price":"$ 76",
          "size":"39" ,
          "rate":2,

@@ -375,14 +375,8 @@ html body .container5 .bottom .btnNext {
 }
 .container_home1 main .fa-search {
   color: #9d9d9d;
-<<<<<<< HEAD
   position: relative;
   left: 2rem;
-=======
-  position: fixed;
-  top: 6rem;
-  left: 3rem;
->>>>>>> 37ecc0f7447b1579adc623e2714396f853922e71
 }
 .container_home1 main .row1, .container_home1 main .row2 {
   display: flex;
@@ -409,6 +403,10 @@ html body .container5 .bottom .btnNext {
   width: 42rem;
   margin-left: 2rem;
 }
+.container_home1 main .section3 .top .btnAll {
+  background-color: black;
+  color: white;
+}
 .container_home1 main .section3 .top button {
   width: 5rem;
   height: 3rem;
@@ -417,21 +415,41 @@ html body .container5 .bottom .btnNext {
   border: 2px solid black;
   font-weight: bold;
 }
-.container_home1 main .section4 .bottom {
-  height: 40rem;
-  width: 22rem;
-  background-color: rgb(230, 230, 230);
+.container_home1 main .section4 {
+  width: 90vw;
+  height: 88vh;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.container_home1 main .section4 .one {
+  width: 10rem;
+  height: 2rem;
+}
+.container_home1 main .section4 .bggray {
+  width: 11rem;
+  height: 9rem;
+  background-color: rgb(245, 245, 245);
+  border-radius: 17px;
+}
+.container_home1 main .section4 .bggray img {
+  padding-left: 1rem;
+  padding-top: 2rem;
+  width: 8rem;
+  height: 5rem;
+}
+.container_home1 main .section4 p {
+  font-size: 20px;
 }
 
 .all-icons {
-  width: 23rem;
+  width: 26rem;
   height: 3rem;
   background-color: white;
   display: flex;
   justify-content: center;
   gap: 3rem;
   align-items: center;
-  margin-left: 2rem;
   position: sticky;
   bottom: 0;
 }
@@ -440,7 +458,6 @@ html body .container5 .bottom .btnNext {
 }
 .all-icons .wallet {
   font-size: 24px;
-<<<<<<< HEAD
 }
 
 .container_product .product_img {
@@ -544,6 +561,4 @@ html body .container5 .bottom .btnNext {
 }
 .orders_container footer .all-icons .wallet {
   font-size: 24px;
-=======
->>>>>>> 37ecc0f7447b1579adc623e2714396f853922e71
 }/*# sourceMappingURL=style.css.map */
