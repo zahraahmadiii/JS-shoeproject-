@@ -466,8 +466,8 @@ html body .container5 .bottom .btnNext {
 
 .container_product .product_img {
   width: 100%;
-  background-color: rgb(230, 230, 230);
-  height: 42vh;
+  background-color: rgb(242, 242, 242);
+  height: 27vh;
 }
 .container_product .product_img .wraper-img .shoePic {
   position: fixed;
@@ -484,7 +484,7 @@ html body .container5 .bottom .btnNext {
   gap: 5px;
   width: 12rem;
   position: fixed;
-  top: 21rem;
+  top: 17rem;
   left: 7rem;
 }
 .container_product .product_img .blanks .blank {
@@ -500,34 +500,131 @@ html body .container5 .bottom .btnNext {
   width: 49px;
   height: 5px;
 }
-.container_product .product_img .blanks .three {
-  width: 49px;
-  height: 5px;
+.container_product .product_info {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
 }
-.container_product .allsizes p {
+.container_product .product_info h1 {
+  display: inline;
+}
+.container_product .product_info .fa-heart-o {
+  float: right;
+  width: 2rem;
+  font-size: 1.8rem;
+}
+.container_product .product_info .more {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.container_product .product_info .more p {
+  font-size: 17px;
+}
+.container_product .product_info .more .sold {
+  padding: 13px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 17px;
+}
+.container_product .product_info .more .star {
+  font-size: 2.1rem;
+}
+.container_product .product_info #descript {
+  font-size: 20px;
+}
+.container_product .size_color {
+  display: flex;
+  gap: 2rem;
+  padding-left: 1rem;
+}
+.container_product .size_color .sizes p {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
 }
-.container_product .allsizes .circles {
+.container_product .size_color .sizes .circles {
+  display: flex;
+  gap: 5px;
+}
+.container_product .size_color .sizes .circles .one {
+  padding: 17px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.container_product .size_color .sizes .circles .two {
+  padding: 17px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.container_product .size_color .sizes .circles .three {
+  padding: 17px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.container_product .size_color .colors p {
+  font-weight: bold;
+  font-size: 30px;
+}
+.container_product .size_color .colors .circles {
+  display: flex;
+  gap: 5px;
+}
+.container_product .size_color .colors .circles .one {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(82, 107, 82);
+}
+.container_product .size_color .colors .circles .two {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(165, 61, 209);
+}
+.container_product .size_color .colors .circles .three {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(116, 67, 35);
+}
+.container_product .quantity {
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+.container_product .quantity p {
+  font-weight: bold;
+  font-size: 24px;
+}
+.container_product .quantity .num {
+  display: flex;
+  gap: 2rem;
+  background-color: rgb(230, 230, 230);
+  border-radius: 3rem;
+  width: 7rem;
+}
+.container_product .total {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
+  padding-left: 1rem;
 }
-.container_product .allsizes .circles .one {
-  padding: 17px;
-  border-radius: 50%;
-  border: 1px solid black;
+.container_product .total .dollar {
+  font-weight: bold;
+  font-size: 1.3rem;
 }
-.container_product .allsizes .circles .two {
-  padding: 17px;
-  border-radius: 50%;
-  border: 1px solid black;
+.container_product .total .cartbtn .fa-shopping-bag {
+  color: white;
+  position: relative;
+  left: 4rem;
 }
-.container_product .allsizes .circles .three {
-  padding: 17px;
-  border-radius: 50%;
-  border: 1px solid black;
+.container_product .total .cartbtn button {
+  height: 4rem;
+  width: 15rem;
+  color: white;
+  background-color: black;
+  font-size: 1.2rem;
+  border-radius: 2rem;
 }
 
 .orders_container header {
