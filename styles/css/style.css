@@ -627,6 +627,133 @@ html body .container5 .bottom .btnNext {
   border-radius: 2rem;
 }
 
+.mycart {
+  background-color: rgb(242, 242, 242);
+}
+.mycart header {
+  display: flex;
+  gap: 12rem;
+  align-items: center;
+  padding-left: 1rem;
+}
+.mycart header .left {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.mycart header .left img {
+  width: 1.5rem;
+  height: 2rem;
+}
+.mycart header .fa-search {
+  font-size: 20px;
+}
+.mycart main {
+  height: 74vh;
+  padding-left: 1rem;
+}
+.mycart main .bgcolor {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  gap: 1rem;
+}
+.mycart main .bgcolor .img {
+  background-color: rgb(242, 242, 242);
+  height: 9rem;
+  width: 11rem;
+  border-radius: 7px;
+}
+.mycart main .bgcolor .img img {
+  margin-top: 1.8rem;
+  margin-left: 1rem;
+}
+.mycart main .bgcolor .info .row1 {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.mycart main .bgcolor .info .row1 h3 {
+  font-size: 27px;
+}
+.mycart main .bgcolor .info .row1 .fa-trash-o {
+  font-size: 27px;
+}
+.mycart main .bgcolor .info .row2 {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+.mycart main .bgcolor .info .row3 {
+  display: flex;
+  gap: 3rem;
+}
+.mycart main .bgcolor .info .row3 p {
+  font-size: 20px;
+}
+.mycart main .bgcolor .info .row4 {
+  display: flex;
+  gap: 2rem;
+}
+.mycart main .bgcolor .info .row4 .dollar {
+  font-size: 20px;
+}
+.mycart main .bgcolor .info .row4 .num {
+  display: flex;
+  gap: 1rem;
+  background-color: rgb(230, 230, 230);
+  border-radius: 2rem;
+  width: 5rem;
+  padding-left: 27px;
+}
+.mycart footer .total {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+  padding-left: 1rem;
+  background-color: white;
+}
+.mycart footer .total .dollar {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.mycart footer .total .cartbtn .arrow {
+  right: 4rem;
+  top: 10px;
+  font-size: 3rem;
+  position: relative;
+  color: white;
+}
+.mycart footer .total .cartbtn button {
+  height: 4rem;
+  width: 15rem;
+  color: white;
+  background-color: black;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+}
+.mycart footer .all-icons {
+  width: 27rem;
+  height: 2rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+}
+.mycart footer .all-icons .fa {
+  font-size: 26px;
+}
+.mycart footer .all-icons .wallet {
+  font-size: 24px;
+}
+
 .orders_container header {
   display: flex;
   gap: 10rem;
