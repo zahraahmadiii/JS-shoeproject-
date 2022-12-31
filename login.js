@@ -47,3 +47,13 @@ function setLocalStorage (data){
 }
 
 
+
+
+
+function validateForm() {
+    let email_input = email.value;
+    if (email_input == "") {
+        email.style.backgroundColor="#ed6b6f"
+        email.placeholder='enter your email address';
+    } 
+  }
