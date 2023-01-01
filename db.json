@@ -3,6 +3,7 @@
     { 
      "id": 1,
      "name": "Air Jordan 3",
+     "category":"Nick",
      "price":"$ 85",
       "size":"40" ,
       "rate":4.5,
@@ -12,6 +13,7 @@
     {
         "id": 2,
         "name": "Adidas Stan Still",
+        "category":"Adidas",
         "price":"$ 55",
          "size":"38" ,
          "rate":4,
@@ -21,6 +23,7 @@
     {
         "id": 3,
         "name": "Puma Pigeon",
+        "category":"Puma",
         "price":"$ 100",
          "size":"37" ,
          "rate":6,
@@ -31,6 +34,7 @@
     {
         "id": 4,
         "name": "Asics Tennis Shoe",
+        "category":"Asics",
         "price":"$ 76",
          "size":"39" ,
          "rate":2,
@@ -41,6 +45,7 @@
     {
         "id": 5,
         "name": "Reebok perigon",
+        "category":"Reebok",
         "price":"$ 55",
          "size":"38" ,
          "rate":4,
@@ -51,6 +56,7 @@
     {
         "id": 6,
         "name": "Reebok perigon",
+        "category":"Reebok",
         "price":"$ 95",
          "size":"36" ,
          "rate":7,
