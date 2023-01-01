@@ -789,4 +789,85 @@ html body .container5 .bottom .btnNext {
 }
 .orders_container footer .all-icons .wallet {
   font-size: 24px;
+}
+
+.container_wish {
+  background-color: rgb(255, 255, 255);
+}
+.container_wish header {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  padding-left: 1rem;
+}
+.container_wish header .left {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.container_wish header .left img {
+  width: 2rem;
+  height: 3rem;
+}
+.container_wish header .fa-search {
+  font-size: 20px;
+}
+.container_wish .sec1 {
+  overflow: auto;
+  width: 100%;
+}
+.container_wish .sec1 .top {
+  width: 42rem;
+  margin-left: 2rem;
+}
+.container_wish .sec1 .top .btnAll {
+  background-color: black;
+  color: white;
+}
+.container_wish .sec1 .top button {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 25px;
+  background-color: white;
+  border: 2px solid black;
+  font-weight: bold;
+}
+.container_wish .sec2 {
+  width: 90vw;
+  height: 88vh;
+  display: flex;
+  gap: 2rem;
+  padding-left: 1rem;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+.container_wish .sec2 .one {
+  width: 12rem;
+  height: 16rem;
+}
+.container_wish .sec2 .one .bggray {
+  width: 11rem;
+  height: 9rem;
+  background-color: rgb(245, 245, 245);
+  border-radius: 17px;
+}
+.container_wish .sec2 .one .bggray img {
+  padding-left: 1rem;
+  padding-top: 2rem;
+  width: 8rem;
+  height: 5rem;
+}
+.container_wish .sec2 .one .info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.container_wish .sec2 .one .info .sold {
+  background-color: rgb(230, 230, 230);
+  border-radius: 7px;
+  padding: 5px;
+}
+.container_wish .sec2 .one p {
+  font-size: 20px;
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */

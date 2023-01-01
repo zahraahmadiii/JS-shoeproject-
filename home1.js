@@ -8,7 +8,6 @@ heart.addEventListener("click",function(){
 })
 let iconHome=document.querySelector(".fa-home")
 iconHome.style.color="gray"
-const base_url="http://localhost:4000/allProduct"
 let shoes_id;
 
 function create_products(){
@@ -32,6 +31,5 @@ function create_products(){
     }) 
 }
 
-// create_products()  
 window.addEventListener("load",create_products)
  
