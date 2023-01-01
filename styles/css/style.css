@@ -870,4 +870,36 @@ html body .container5 .bottom .btnNext {
 .container_wish .sec2 .one p {
   font-size: 20px;
   margin: 5px;
+}
+
+.container_search {
+  padding: 1.5rem;
+}
+.container_search #gsearch {
+  width: 22rem;
+  height: 3rem;
+  padding-left: 41px;
+  border-radius: 16px;
+}
+.container_search .fa-search {
+  color: #9d9d9d;
+  position: relative;
+  left: 2rem;
+}
+.container_search .section2 {
+  display: flex;
+  gap: 13rem;
+  padding: 1rem;
+}
+.container_search .section2 p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.container_search .section3 {
+  display: flex;
+  align-items: center;
+  gap: 14rem;
+}
+.container_search .section3 p {
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */

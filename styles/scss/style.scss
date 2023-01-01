@@ -892,3 +892,36 @@ p{
       
     }
   }
+
+.container_search{
+  padding: 1.5rem;
+  #gsearch{
+    width: 22rem;
+    height: 3rem;
+    padding-left: 41px;
+    border-radius: 16px;
+  }
+  .fa-search{
+    color: $gray;
+    position: relative;
+    left: 2rem;
+  }
+  .section2{
+    display: flex;
+    gap: 13rem;
+    padding: 1rem;
+    p{
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  .section3{
+    display: flex;
+    align-items: center;
+    gap: 14rem;
+    p{
+      font-size: 25px;
+    }
+  }
+}
+  

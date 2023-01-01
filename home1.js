@@ -8,6 +8,11 @@ heart.addEventListener("click",function(){
 })
 let iconHome=document.querySelector(".fa-home")
 iconHome.style.color="gray"
+let search=document.getElementById("gsearch")
+console.log(search);
+search.addEventListener("click" ,function(){
+  window.location.href="search.html"
+})
 let shoes_id;
 
 function create_products(){
