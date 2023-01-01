@@ -13,6 +13,14 @@ console.log(search);
 search.addEventListener("click" ,function(){
   window.location.href="search.html"
 })
+let btnNick=document.querySelector(".btnNick")
+btnNick.addEventListener("click",function(){
+  window.location.href="home3.html" 
+})
+let btnAll=document.querySelector(".btnAll")
+btnAll.addEventListener("click",function(){
+  window.location.href="home2.html" 
+})
 let shoes_id;
 
 function create_products(){

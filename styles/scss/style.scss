@@ -243,6 +243,18 @@ html{
 
 
 .container_home3{
+  header{
+    display: flex;
+    gap: 1.20rem;
+    padding-left: 1rem;
+    img{
+      width: 4rem;
+    }
+    p{
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
   main{
     @include base1_display;
     margin-top: 20px;
