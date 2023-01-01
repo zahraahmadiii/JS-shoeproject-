@@ -907,11 +907,17 @@ p{
     }
   }
   .section3{
-    display: flex;
-    align-items: center;
-    gap: 14rem;
+    .search{
+      display: flex;
+      align-items: center;
+      gap: 14rem;
+    }
     p{
       font-size: 25px;
+    }
+    .fa-close{
+      position: absolute;
+      right: 23px;
     }
   }
 }
