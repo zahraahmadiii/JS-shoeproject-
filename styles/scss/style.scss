@@ -936,4 +936,72 @@ p{
     }
   }
 }
-  
+
+.container_home2{
+  padding: 1.5rem;
+  header{
+    display: flex;
+    gap: 1.20rem;
+    align-items: center;
+    img{
+      width: 3.5rem;
+      height: 3rem;
+    }
+    p{
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+  .section3{
+    overflow: auto;
+    width: 100%;
+
+    .top{
+      width: 42rem;
+    
+      .btnAll{
+        background-color: $black;
+        color: $white;
+       }
+      button{
+       width: 5rem;
+       height: 3rem;
+       border-radius: 25px;
+       background-color:$white;
+       border: 2px solid $black;
+       font-weight: bold;
+       
+      }
+
+    }
+   
+  }
+  .section4{
+    width: 90vw;
+    height: 88vh;
+    display: flex;
+    gap: 2rem;
+   padding-top: 1rem;
+    flex-wrap: wrap;
+    .one{
+      width: 10rem;
+      height: 2rem;
+}
+      .bggray{
+        width: 11rem;
+        height: 9rem;
+        background-color: rgb(245 245 245);
+        border-radius: 17px;
+        img{
+          padding-left: 1rem;
+          padding-top: 2rem;
+          width: 8rem;
+          height: 5rem;
+      
+        }
+      }
+      p{
+        font-size: 20px;
+      }
+    }
+}

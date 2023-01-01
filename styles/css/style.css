@@ -914,4 +914,67 @@ html body .container5 .bottom .btnNext {
 }
 .container_search .section3 p {
   font-size: 25px;
+}
+
+.container_home2 {
+  padding: 1.5rem;
+}
+.container_home2 header {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.container_home2 header img {
+  width: 3.5rem;
+  height: 3rem;
+}
+.container_home2 header p {
+  font-size: 30px;
+  font-weight: bold;
+}
+.container_home2 .section3 {
+  overflow: auto;
+  width: 100%;
+}
+.container_home2 .section3 .top {
+  width: 42rem;
+}
+.container_home2 .section3 .top .btnAll {
+  background-color: black;
+  color: white;
+}
+.container_home2 .section3 .top button {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 25px;
+  background-color: white;
+  border: 2px solid black;
+  font-weight: bold;
+}
+.container_home2 .section4 {
+  width: 90vw;
+  height: 88vh;
+  display: flex;
+  gap: 2rem;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+}
+.container_home2 .section4 .one {
+  width: 10rem;
+  height: 2rem;
+}
+.container_home2 .section4 .bggray {
+  width: 11rem;
+  height: 9rem;
+  background-color: rgb(245, 245, 245);
+  border-radius: 17px;
+}
+.container_home2 .section4 .bggray img {
+  padding-left: 1rem;
+  padding-top: 2rem;
+  width: 8rem;
+  height: 5rem;
+}
+.container_home2 .section4 p {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
