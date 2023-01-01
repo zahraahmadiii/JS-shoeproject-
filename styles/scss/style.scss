@@ -990,3 +990,25 @@ p{
       }
     }
 }
+
+.container_notfound{
+  padding: 1.5rem;
+  #gsearch{
+    width: 22rem;
+    height: 3rem;
+    padding-left: 41px;
+    border-radius: 16px;
+  }
+  .fa-search{
+    color: $gray;
+    position: relative;
+    left: 2rem;
+  }
+  .section2{
+    img{
+      margin-top: 5rem;
+      width: 91vw;
+     height: 60vh;
+    }
+  }
+}

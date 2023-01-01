@@ -950,4 +950,24 @@ html body .container5 .bottom .btnNext {
 }
 .container_home2 .section4 p {
   font-size: 20px;
+}
+
+.container_notfound {
+  padding: 1.5rem;
+}
+.container_notfound #gsearch {
+  width: 22rem;
+  height: 3rem;
+  padding-left: 41px;
+  border-radius: 16px;
+}
+.container_notfound .fa-search {
+  color: #9d9d9d;
+  position: relative;
+  left: 2rem;
+}
+.container_notfound .section2 img {
+  margin-top: 5rem;
+  width: 91vw;
+  height: 60vh;
 }/*# sourceMappingURL=style.css.map */

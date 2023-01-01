@@ -1,7 +1,7 @@
 let section4=document.querySelector(".section4")
 // console.log(section4);
 let heart=document.querySelector(".fa-heart-o")
-console.log(heart);
+// console.log(heart);
 heart.addEventListener("click",function(){
   heart.style.color="red"
   window.location.href="wishlist.html"
@@ -9,7 +9,7 @@ heart.addEventListener("click",function(){
 let iconHome=document.querySelector(".fa-home")
 iconHome.style.color="gray"
 let search=document.getElementById("gsearch")
-console.log(search);
+// console.log(search);
 search.addEventListener("click" ,function(){
   window.location.href="search.html"
 })
@@ -46,3 +46,11 @@ function create_products(){
 
 window.addEventListener("load",create_products)
  
+
+// function Each_product(){
+//   section4.forEach(item=>{
+//     console.log(item);
+
+//   })
+// }
+// Each_product()
