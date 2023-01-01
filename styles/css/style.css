@@ -274,9 +274,11 @@ html body .container5 .bottom .btnNext {
   display: flex;
   gap: 1.2rem;
   padding-left: 1rem;
+  align-items: center;
 }
 .container_home3 header img {
-  width: 4rem;
+  width: 3.5rem;
+  height: 3rem;
 }
 .container_home3 header p {
   font-size: 30px;
@@ -288,65 +290,32 @@ html body .container5 .bottom .btnNext {
   align-items: center;
   margin-top: 20px;
 }
-.container_home3 .row1 {
+.container_home3 .section4 {
+  width: 90vw;
+  height: 88vh;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
+  padding-top: 1rem;
+  flex-wrap: wrap;
 }
-.container_home3 .row1 p {
+.container_home3 .section4 .one {
+  width: 10rem;
+  height: 2rem;
+}
+.container_home3 .section4 .bggray {
+  width: 11rem;
+  height: 9rem;
+  background-color: rgb(245, 245, 245);
+  border-radius: 17px;
+}
+.container_home3 .section4 .bggray img {
+  padding-left: 1rem;
+  padding-top: 2rem;
+  width: 8rem;
+  height: 5rem;
+}
+.container_home3 .section4 p {
   font-size: 20px;
-}
-.container_home3 .row1 #shoe1 {
-  position: fixed;
-  left: 3rem;
-  top: 7rem;
-}
-.container_home3 .row1 #shoe2 {
-  position: fixed;
-  right: 3rem;
-  top: 7rem;
-}
-.container_home3 .row2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-.container_home3 .row2 p {
-  font-size: 20px;
-}
-.container_home3 .row2 #shoe3 {
-  position: fixed;
-  left: 2rem;
-  top: 25rem;
-}
-.container_home3 .row2 #shoe4 {
-  position: fixed;
-  right: 3rem;
-  top: 25rem;
-}
-.container_home3 .row3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-.container_home3 .row3 p {
-  font-size: 20px;
-}
-.container_home3 .row3 #shoe5 {
-  position: fixed;
-  left: 3rem;
-  top: 45rem;
-}
-.container_home3 .row3 #shoe6 {
-  position: fixed;
-  right: 3rem;
-  top: 43rem;
 }
 
 .container_home1 header {
