@@ -33,9 +33,7 @@ function create_products(){
             ` 
             <div class="one">
             <div class="bggray">
-            <a href="product.html">
-            <img id="shoe1" src="${item.img}">
-            </a>
+            <img id="shoe1" src="${item.img}" onclick="showProduct(${item.id})">
             </div>
                  <p><b>${item.name}</b></p>
                <p>${item.price}</p>
@@ -49,10 +47,6 @@ function create_products(){
 window.addEventListener("load",create_products)
  
 
-// function Each_product(){
-//   section4.forEach(item=>{
-//     console.log(item);
-
-//   })
-// }
-// Each_product()
+const showProduct=(id)=>{
+  window.location.href=`product.html?id=${id}`
+}

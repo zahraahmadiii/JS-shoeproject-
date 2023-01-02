@@ -2,7 +2,7 @@ function redirect(){
             
     window.location="onboard2.html";
 }
-setTimeout("redirect()",3000)
+setTimeout("redirect()",6000)
 
 
 
