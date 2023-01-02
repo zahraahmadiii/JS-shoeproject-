@@ -18,7 +18,7 @@ function getfavorites(){
             <div class="info">
                 <div class="row1">
                     <h3>${item.name}</h3>
-                    <i class="fa fa-trash-o"></i>
+                    <i class="fa fa-trash-o" onclick="deleteProduct()"></i>
                 </div>
                 <div class="row3">
                     <p>black</p>
@@ -42,3 +42,8 @@ function getfavorites(){
 }
 getfavorites()
 
+function deleteProduct(){
+    let wraper=document.querySelector(".bgcolor")
+    wraper.style.display="none"
+
+}
