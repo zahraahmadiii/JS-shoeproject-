@@ -8,13 +8,16 @@ const queryParam=new URLSearchParams(location.search)
 const id=queryParam.get('id')
 console.log(id);
 
+let shoe_info;
 
 const getOneProduct=(id)=>{
     axios.get(`http://localhost:4000/allProduct/${id}`).then((res)=>{
     console.log(res.data);
      let myWish=res.data
      genaratshoe(myWish)
-    
+     shoe_info=myWish
+    //  console.log(shoe_info);
+
 })
 }
 getOneProduct(id)
@@ -39,7 +42,7 @@ let container_product=document.querySelector(".container_product")
     
     <div class="product_info">
         <h1 class="shoe_name">${myWish.name}</h1>
-        <i class="fa fa-heart-o"></i>
+        <i class="fa fa-heart-o" onclick="addToWishes()"></i>
         <div class="more">
             <p class="sold">${myWish.sold}sold</p>
             <iconify-icon class="star" icon="ic:round-star-half"></iconify-icon>
@@ -89,9 +92,29 @@ let container_product=document.querySelector(".container_product")
         </div>
         <div class="cartbtn">
             <i class="fa fa-shopping-bag"></i>
-           <Button>Add to cart</Button>
+           <Button class="orderBtn" onclick="addToOrders()">Add to cart</Button>
         </div>
     </div>`)
 
 
  } 
+
+
+function addToOrders(){
+ window.location.href="mycart.html"
+ axios.post(`http://localhost:4000/orders`,shoe_info).then((res)=>{
+    console.log(res);
+})
+
+
+ 
+}
+
+
+function addToWishes(){
+document.querySelector(".fa-heart-o").style.color="red"
+console.log(id);
+axios.post(`http://localhost:4000/favorites`,shoe_info).then((res)=>{
+    console.log(res);
+})
+}
