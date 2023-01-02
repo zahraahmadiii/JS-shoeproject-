@@ -633,6 +633,7 @@ p{
       display: flex;
       flex-direction: row;
       align-items: center;
+      margin-bottom:7px;
       width:$fullWidth;
       // height: 15vh;
       background-color: $white;
@@ -645,19 +646,24 @@ p{
          border-radius: 7px;
          img{
           margin-top: 1.8rem;
-          margin-left: 1rem;
+    margin-left: 1rem;
+    position: absolute;
+    width: 7rem;
+    height: 5rem;
          }
       }
       .info{
         .row1{
           display: flex;
-          gap: 3rem;
+          gap: 2rem;
           align-items: center;
           h3{
-            font-size: 27px;
+            font-size: 21px;
           }
           .fa-trash-o{
             font-size: 27px;
+            position: absolute;
+           right: 10px;
           }
         }
         .row2{
@@ -707,10 +713,10 @@ p{
       }
       .cartbtn{
         .arrow{
-          right: 4rem;
-          top: 10px;
+         left: 21.5rem;
+          top: 50.5rem;
           font-size: 3rem;
-          position: relative;
+          position: absolute;
           color: $white;
         }
         button{

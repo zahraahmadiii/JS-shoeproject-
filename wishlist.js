@@ -11,7 +11,7 @@ let section2=document.querySelector(".sec2")
 let shoes_id;
 
 function create_products(){
-    axios.get("http://localhost:4000/favorites").then((res)=>{
+    axios.get("http://localhost:4000/allproduct").then((res)=>{
         // console.log(res.data);
         res.data.forEach(item => {
             // console.log(item);
