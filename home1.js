@@ -33,7 +33,9 @@ function create_products(){
             ` 
             <div class="one">
             <div class="bggray">
-              <img id="shoe1" src="${item.img}">
+            <a href="product.html">
+            <img id="shoe1" src="${item.img}">
+            </a>
             </div>
                  <p><b>${item.name}</b></p>
                <p>${item.price}</p>

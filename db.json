@@ -5,30 +5,39 @@
      "name": "Air Jordan 3",
      "category":"Nick",
      "price":"$ 85",
-      "size":"40" ,
+      "size":[40,34,38] ,
       "rate":4.5,
       "sold":"5",
-      "img":"https://www.linkpicture.com/q/shoe.jpg"
+      "img":"https://www.linkpicture.com/q/shoe.jpg",
+      "description" :"this shoe is nice.",
+      "color":["white","green","orange"],
+      "review":"2.25 reviews"
     },
     {
         "id": 2,
         "name": "Adidas Stan Still",
         "category":"Adidas",
         "price":"$ 55",
-         "size":"38" ,
+        "size":[36,34,39] ,
          "rate":4,
          "sold":"3",
-         "img":"https://png2.cleanpng.com/sh/0468e9cd7c02ca04417b8f5e07a455aa/L0KzQYm3VsA6N5pojJH0aYP2gLBuTfFlcZVmi598dHHxPcT0igRpNaRzfdN0ZYL2PcTvjBUuaZVufNN8LXB1ebjwjvFte15mfNttYYOwg8Xojr10dZp5gJ8AYkHlRoi8UMdna2pqTJCENUS0Q4aCUsE2Omk6SqQAN0a4QoS7TwBvbz==/kisspng-adidas-stan-smith-sneakers-shoe-adidas-originals-adidas-stan-smith-5b1b67507fc9e4.9541359215285225765234.png"  
+         "img":"https://png2.cleanpng.com/sh/0468e9cd7c02ca04417b8f5e07a455aa/L0KzQYm3VsA6N5pojJH0aYP2gLBuTfFlcZVmi598dHHxPcT0igRpNaRzfdN0ZYL2PcTvjBUuaZVufNN8LXB1ebjwjvFte15mfNttYYOwg8Xojr10dZp5gJ8AYkHlRoi8UMdna2pqTJCENUS0Q4aCUsE2Omk6SqQAN0a4QoS7TwBvbz==/kisspng-adidas-stan-smith-sneakers-shoe-adidas-originals-adidas-stan-smith-5b1b67507fc9e4.9541359215285225765234.png" ,
+         "description" :"this shoe is comfortable." ,
+         "color":["pink","green","black"],
+         "review":"2.3 reviews"
     },
     {
         "id": 3,
         "name": "Puma Pigeon",
         "category":"Puma",
         "price":"$ 100",
-         "size":"37" ,
+        "size":[40,41,38] ,
          "rate":6,
          "sold":"4",
-         "img":"https://png2.cleanpng.com/sh/5a1721c917510b115db24374e7f78701/L0KzQYm3V8E1N5R7R91yc4Pzfri0kB5maZxqiuU2cIXwcX76iP9mNaR6fdZuLXPvf8Xvif5oNahtgeZuLYDsd7b2jr02amUAe6oDYnHldIXoUb41P2Q4TaYCOUG4Q4K8VsIyOmQ8SKUDLoDxd1==/kisspng-sneakers-puma-shoe-suede-clothing-white-pigeon-5b49c88babd4a1.4733547915315621237038.png"
+         "img":"https://png2.cleanpng.com/sh/5a1721c917510b115db24374e7f78701/L0KzQYm3V8E1N5R7R91yc4Pzfri0kB5maZxqiuU2cIXwcX76iP9mNaR6fdZuLXPvf8Xvif5oNahtgeZuLYDsd7b2jr02amUAe6oDYnHldIXoUb41P2Q4TaYCOUG4Q4K8VsIyOmQ8SKUDLoDxd1==/kisspng-sneakers-puma-shoe-suede-clothing-white-pigeon-5b49c88babd4a1.4733547915315621237038.png",
+         "description" :"this shoe is beautiful.",
+         "color":["white","blue","orange"],
+         "review":"3.45 reviews"
 
     },
     {
@@ -36,10 +45,13 @@
         "name": "Asics Tennis Shoe",
         "category":"Asics",
         "price":"$ 76",
-         "size":"39" ,
+        "size":[42,34,38] ,
          "rate":2,
          "sold":"1",
-         "img":"https://png2.cleanpng.com/sh/a04009dc3a791063fd7a7f5ae44b55cb/L0KzQYm3WcI3N6lAeZH0aYP2gLBuTfF0cZR4RdlubD3mhb78jQV0NWI8Rel4bXXxg373if5sNah0hdd3cz3kg7rqk71zfV5sfd42Y4Xwhb38k70yQF5rh9H9d3Xkgn7okBlke154hAd9aD3kdsPwgBEuPZNmetVuOUTmSbS5UMIvP2I5SakANUK0RYSAWcg3OWo7UKQBND7zfri=/kisspng-asics-gel-cumulus-17-womens-pink-womens-asics-ru-gel-cumulus-18-footwear-asics-south-africa-5babce94c9c202.7141755215379861968264.png"
+         "img":"https://png2.cleanpng.com/sh/a04009dc3a791063fd7a7f5ae44b55cb/L0KzQYm3WcI3N6lAeZH0aYP2gLBuTfF0cZR4RdlubD3mhb78jQV0NWI8Rel4bXXxg373if5sNah0hdd3cz3kg7rqk71zfV5sfd42Y4Xwhb38k70yQF5rh9H9d3Xkgn7okBlke154hAd9aD3kdsPwgBEuPZNmetVuOUTmSbS5UMIvP2I5SakANUK0RYSAWcg3OWo7UKQBND7zfri=/kisspng-asics-gel-cumulus-17-womens-pink-womens-asics-ru-gel-cumulus-18-footwear-asics-south-africa-5babce94c9c202.7141755215379861968264.png",
+         "description" :"this shoe is not comfortable.",
+         "color":["brown","green","orange"],
+         "review":"3.15 reviews"
 
     },
     {
@@ -47,10 +59,13 @@
         "name": "Reebok perigon",
         "category":"Reebok",
         "price":"$ 55",
-         "size":"38" ,
+        "size":[40,36,41] ,
          "rate":4,
          "sold":"3",
-         "img":"https://png2.cleanpng.com/sh/d81f36b498239c16e61525e5af143c77/L0KzQYm3VMA1N5lmiZH0aYP2gLBuTgNvbZJwfeR8LYLodbP2i710cJDqRdNtaXTkg371iftmNaNqfdR4az24cbS7VcYzamlmedg7MT61RIW8Vcc2OmI6SqQDMUa4RYa8VsgyNqFzf3==/kisspng-sneakers-reebok-shoe-adidas-nike-reebok-5ac4562b8aaf21.2445575215228165555681.png"
+         "img":"https://png2.cleanpng.com/sh/d81f36b498239c16e61525e5af143c77/L0KzQYm3VMA1N5lmiZH0aYP2gLBuTgNvbZJwfeR8LYLodbP2i710cJDqRdNtaXTkg371iftmNaNqfdR4az24cbS7VcYzamlmedg7MT61RIW8Vcc2OmI6SqQDMUa4RYa8VsgyNqFzf3==/kisspng-sneakers-reebok-shoe-adidas-nike-reebok-5ac4562b8aaf21.2445575215228165555681.png",
+         "description" :"this shoe is for all ages.",
+         "color":["white","yellow","orange"],
+         "review":"1.45 reviews"
 
     },
     {
@@ -58,10 +73,13 @@
         "name": "Reebok perigon",
         "category":"Reebok",
         "price":"$ 95",
-         "size":"36" ,
+        "size":[40,39,38] ,
          "rate":7,
          "sold":"10",
-         "img":"https://png2.cleanpng.com/sh/b7bd45fb3e905b018467d4f56db43818/L0KzQYm3WcA6N5R3fZH0aYP2gLBuTfFlcZVmi598dHHxPcT0igRpNZRtjdV0LYTkib32kr1idJ0yiAZqcoOwg8H2kwR0NaRtRd14ZX6wc7F1lvVze5YyjNd3aYPuiX7ohBVvfKZ3eeVybnT8PbTDTcVjQWY6StcAOHPoQ4iBTsQ2PmY7TqY7MUW2Roa4Usc1OWY8T6M3cH7q/kisspng-adidas-stan-smith-chuck-taylor-all-stars-sports-sh-koen-converse-tenisky-agenturasindy-cz-5b9552e58ce378.4565664215365127415771.png"
+         "img":"https://png2.cleanpng.com/sh/b7bd45fb3e905b018467d4f56db43818/L0KzQYm3WcA6N5R3fZH0aYP2gLBuTfFlcZVmi598dHHxPcT0igRpNZRtjdV0LYTkib32kr1idJ0yiAZqcoOwg8H2kwR0NaRtRd14ZX6wc7F1lvVze5YyjNd3aYPuiX7ohBVvfKZ3eeVybnT8PbTDTcVjQWY6StcAOHPoQ4iBTsQ2PmY7TqY7MUW2Roa4Usc1OWY8T6M3cH7q/kisspng-adidas-stan-smith-chuck-taylor-all-stars-sports-sh-koen-converse-tenisky-agenturasindy-cz-5b9552e58ce378.4565664215365127415771.png",
+         "description" :"this shoe is chic.",
+         "color":["white","gray","blue"],
+         "review":"2.75 reviews"
 
     }
 ]
