@@ -92,7 +92,7 @@ let container_product=document.querySelector(".container_product")
         </div>
         <div class="cartbtn">
             <i class="fa fa-shopping-bag"></i>
-           <Button class="orderBtn" onclick="addToOrders()">Add to cart</Button>
+           <Button class="orderBtn" onclick="addToCart()">Add to cart</Button>
         </div>
     </div>`)
 
@@ -100,9 +100,9 @@ let container_product=document.querySelector(".container_product")
  } 
 
 
-function addToOrders(){
+function addToCart(){
  window.location.href="mycart.html"
- axios.post(`http://localhost:4000/orders`,shoe_info).then((res)=>{
+ axios.post(`http://localhost:4000/mycart`,shoe_info).then((res)=>{
     console.log(res);
 })
 
