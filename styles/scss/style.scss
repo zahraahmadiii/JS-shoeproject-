@@ -752,9 +752,10 @@ p{
 
 
  .orders_container{
+  background-color: rgb(242 242 242);
   header{
     display: flex;
-    gap: 10rem;
+    gap: 11rem;
     align-items: center;
     margin-left: 1rem;
    
@@ -774,10 +775,99 @@ p{
     }
     
   }
+  main{
+    .sec1{
+      display: flex;
+      gap: 7rem;
+      padding-left: 5rem; 
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+a{
+  font-size: 24px;
+  color: $black;
+}
+    }
+    .sec2{
+      height: 80vh;
+      padding-left: 1rem;
+      .bgcolor{
+        padding-left: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom:7px;
+        width:$fullWidth;
+        // height: 15vh;
+        background-color: $white;
+        gap: 1rem;
+  
+        .img{
+          background-color: rgb(242 242 242);
+           height: 9rem;
+           width: 11rem;
+           border-radius: 7px;
+           img{
+            margin-top: 1.8rem;
+      margin-left: 1rem;
+      position: absolute;
+      width: 7rem;
+      height: 5rem;
+           }
+        }
+        .info{
+          .row1{
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            h3{
+              font-size: 21px;
+            }
+            .fa-trash-o{
+              font-size: 27px;
+              position: absolute;
+             right: 10px;
+            }
+          }
+          .row2{
+            display: flex;
+            gap: 6rem;
+            align-items: center;
+          }
+          .row3{
+            display: flex;
+            gap: 3rem;
+            p{
+              font-size: 20px;
+            }
+            
+          }
+          .row4{
+            display: flex;
+            gap: 2rem;
+            .dollar{
+              font-size: 20px;
+            }
+            .num{
+              display: flex;
+               gap: 1rem;
+              background-color: rgb(59 56 56);
+              border-radius: 51rem;
+              width: 6rem;
+              padding-left: 18px;
+              color: white;
+              height: 3rem;
+              
+            }
+          }
+        }
+      }
+
+    }
+  }
 
   footer{
     .all-icons{
-      width: 23rem;
+      width: 27rem;
       height: 3rem;
       background-color: $white;
       display: flex;
@@ -787,6 +877,7 @@ p{
       margin-left: 2rem;
       position: sticky;
       bottom: 0;
+     
       .fa{
         font-size: 26px;
       }
@@ -794,7 +885,9 @@ p{
         font-size: 24px;
       }
   }
-
+  .fa-shopping-cart{
+    color: $gray;
+  }
  
  }
 }

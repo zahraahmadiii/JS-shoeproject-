@@ -55,3 +55,7 @@ const showProduct=(id)=>{
 document.querySelector(".fa-shopping-bag").addEventListener("click",function(){
   window.location.href="mycart.html"
 })
+
+document.querySelector(".fa-shopping-cart").addEventListener("click",function(){
+  window.location.href="orders.html"
+})
