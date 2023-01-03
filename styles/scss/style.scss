@@ -1040,6 +1040,7 @@ p{
   }
   main{
     padding: 1rem;
+   
     .shipping{
       display: flex;
       align-items: center;
@@ -1050,7 +1051,7 @@ p{
       margin-bottom: 23px;
     }
     .orders{
-      height: 74vh;
+      height: 76vh;
       .bgcolor{
         padding-left: 5px;
         display: flex;
@@ -1118,6 +1119,94 @@ p{
     }
   }
     }
+    .choose{
+      display: flex;
+      background-color: $white;
+      gap: 4rem;
+      height: 5rem;
+      border-radius:7px ;
+      align-items: center;
+      padding-left: 1rem;
+      .left{
+        display: flex;
+       gap: 2rem;
+       p{
+         font-size: 19px;
+        font-weight: bold;
+       }
+       .truck{
+        font-size: 2rem;
+        margin-top: 0.75rem;
+       }
+      }
+      .arrow{
+        font-size: 2rem;
+      }
+    }
+    .promo{
+      margin-bottom: 1rem;
+      .plus{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        input{
+          width: 18rem;
+          height: 3rem;
+          border: none;
+          border-radius: 7px;
+         
+        }
+      }
+     
+    }
+    .amount{
+      background-color: $white;
+      border-radius: 15px;
+      .row1{
+        display: flex;
+        gap: 15rem;
+        background-color: $white;
+        padding-left: 1rem;
+        p{
+          font-size: 17px;
+        }
+      }
+      .row2{
+        display: flex;
+        gap: 17rem;
+        padding-left: 1rem;
+        p{
+          font-size: 17px;
+        }
+      }
+      .row3{
+        display: flex;
+        gap: 18.5rem;
+        padding-left: 1rem;
+        p{
+          font-size: 17px;
+        }
+      }
+    }
   }
+  footer{
+    .arrow{
+      color: red;
+      
+    }
+    .btn{
+      width: 16rem;
+      height: 3rem;
+      border-radius: 20px;
+      background-color: $black;
+      color: $white;
+      position: relative;
+      margin-top: 2rem;
+      left: 5rem;
+      font-size: 1rem;
+
+    }
+  }
+  
 }
     

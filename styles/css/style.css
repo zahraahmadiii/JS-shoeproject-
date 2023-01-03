@@ -1009,7 +1009,7 @@ html body .container5 .bottom .btnNext {
   margin-bottom: 23px;
 }
 .checkout main .orders {
-  height: 74vh;
+  height: 76vh;
 }
 .checkout main .orders .bgcolor {
   padding-left: 5px;
@@ -1071,4 +1071,85 @@ html body .container5 .bottom .btnNext {
   border-radius: 50%;
   width: 2.2rem;
   padding-left: 27px;
+}
+.checkout main .choose {
+  display: flex;
+  background-color: white;
+  gap: 4rem;
+  height: 5rem;
+  border-radius: 7px;
+  align-items: center;
+  padding-left: 1rem;
+}
+.checkout main .choose .left {
+  display: flex;
+  gap: 2rem;
+}
+.checkout main .choose .left p {
+  font-size: 19px;
+  font-weight: bold;
+}
+.checkout main .choose .left .truck {
+  font-size: 2rem;
+  margin-top: 0.75rem;
+}
+.checkout main .choose .arrow {
+  font-size: 2rem;
+}
+.checkout main .promo {
+  margin-bottom: 1rem;
+}
+.checkout main .promo .plus {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.checkout main .promo .plus input {
+  width: 18rem;
+  height: 3rem;
+  border: none;
+  border-radius: 7px;
+}
+.checkout main .amount {
+  background-color: white;
+  border-radius: 15px;
+}
+.checkout main .amount .row1 {
+  display: flex;
+  gap: 15rem;
+  background-color: white;
+  padding-left: 1rem;
+}
+.checkout main .amount .row1 p {
+  font-size: 17px;
+}
+.checkout main .amount .row2 {
+  display: flex;
+  gap: 17rem;
+  padding-left: 1rem;
+}
+.checkout main .amount .row2 p {
+  font-size: 17px;
+}
+.checkout main .amount .row3 {
+  display: flex;
+  gap: 18.5rem;
+  padding-left: 1rem;
+}
+.checkout main .amount .row3 p {
+  font-size: 17px;
+}
+.checkout footer .arrow {
+  color: red;
+}
+.checkout footer .btn {
+  width: 16rem;
+  height: 3rem;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  position: relative;
+  margin-top: 2rem;
+  left: 5rem;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */

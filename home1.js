@@ -50,3 +50,8 @@ window.addEventListener("load",create_products)
 const showProduct=(id)=>{
   window.location.href=`product.html?id=${id}`
 }
+
+
+document.querySelector(".fa-shopping-bag").addEventListener("click",function(){
+  window.location.href="mycart.html"
+})
