@@ -1247,4 +1247,19 @@ html body .container5 .bottom .btnNext {
   margin-top: 2rem;
   left: 5rem;
   font-size: 1rem;
+}
+
+.modal img {
+  width: 100%;
+}
+.modal .btn {
+  width: 17rem;
+  height: 4rem;
+  border-radius: 168px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  margin-top: 34.5rem;
+  left: 4.8rem;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */
