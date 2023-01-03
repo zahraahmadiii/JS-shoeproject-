@@ -48,6 +48,6 @@ function deleteProduct(id){
     
 }
 
-// document.querySelector(".checkout").addEventListener("click",function(){
-//     window.location.href=""
-// })
+document.querySelector(".checkout").addEventListener("click",function(){
+    window.location.href="checkout.html"
+})
