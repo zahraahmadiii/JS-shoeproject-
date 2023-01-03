@@ -47,3 +47,7 @@ function deleteProduct(id){
     axios.delete(`http://localhost:4000/mycart/${id}`)
     
 }
+
+// document.querySelector(".checkout").addEventListener("click",function(){
+//     window.location.href=""
+// })

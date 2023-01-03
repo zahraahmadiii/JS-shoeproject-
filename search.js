@@ -60,6 +60,8 @@ search.addEventListener("keypress",function(e){
                     if(item.category==search.value){
 
                         window.location.href=`product.html?id=${item.id}`
+                        }else{
+                            window.location.href="notfound.html"
                         }
                    
                 })
