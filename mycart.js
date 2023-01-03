@@ -6,7 +6,7 @@ console.log(wraperProduct);
 
 
 function getfavorites(){
-    axios.get("http://localhost:4000/favorites").then((res)=>{
+    axios.get("http://localhost:4000/mycart").then((res)=>{
         console.log(res.data);
         res.data.forEach(item => {
             console.log(item);
@@ -18,7 +18,7 @@ function getfavorites(){
             <div class="info">
                 <div class="row1">
                     <h3>${item.name}</h3>
-                    <i class="fa fa-trash-o" onclick="deleteProduct()"></i>
+                    <i class="fa fa-trash-o" onclick="deleteProduct(${item.id})"></i>
                 </div>
                 <div class="row3">
                     <p>black</p>
@@ -42,8 +42,8 @@ function getfavorites(){
 }
 getfavorites()
 
-function deleteProduct(){
-    let wraper=document.querySelector(".bgcolor")
-    wraper.style.display="none"
-
+function deleteProduct(id){
+    // console.log(id);
+    axios.delete(`http://localhost:4000/mycart/${id}`)
+    
 }
