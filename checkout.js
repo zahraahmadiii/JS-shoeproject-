@@ -8,14 +8,15 @@ document.querySelector(".btn").addEventListener("click",function(){
 let wraperProduct=document.querySelector(".wrapperProduct")
 console.log(wraperProduct);
 
-
+let obj;
 
 function getmycart(){
     axios.get("http://localhost:4000/mycart").then((res)=>{
         console.log(res.data);
         res.data.forEach(item => {
             console.log(item);
-           
+           obj=item
+           console.log(obj);
             wraperProduct.insertAdjacentHTML("beforeend",
             `    
             <div class="bgcolor">
@@ -43,10 +44,9 @@ function getmycart(){
            
      )
 
-
+   
      });
 
-  
     }) 
     
 }
@@ -58,12 +58,14 @@ function deleteProduct(id){
 }
 
 
-// function postToOrder(){
+function postToOrder(){
  
-//  axios.post(`http://localhost:4000/orders`,finalProduct).then((res)=>{
-//     console.log(res);
+    axios.post(`http://localhost:4000/orders`,obj).then((res)=>{
+        console.log(res);
+        // window.location.href="orders.html"
+    
+    })
 
-// })
-// }
 
-// postToOrder()
+}
+

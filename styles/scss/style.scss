@@ -797,7 +797,7 @@ a{
         align-items: center;
         margin-bottom:7px;
         width:$fullWidth;
-        // height: 15vh;
+        height: 15vh;
         background-color: $white;
         gap: 1rem;
   
@@ -808,10 +808,10 @@ a{
            border-radius: 7px;
            img{
             margin-top: 1.8rem;
-      margin-left: 1rem;
-      position: absolute;
-      width: 7rem;
-      height: 5rem;
+         margin-left: 1rem;
+          position: absolute;
+         width: 7rem;
+        height: 5rem;
            }
         }
         .info{

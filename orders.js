@@ -10,7 +10,7 @@ function getMyOrder(){
             console.log(item);
             wraperProduct.insertAdjacentHTML("beforeend",
             `
-            <!-- <div class="bgcolor">
+            <div class="bgcolor">
             <div class="img">
                 <img src="${item.img}" >
             </div>
@@ -32,7 +32,7 @@ function getMyOrder(){
                 </div>
             </div>
           
-        </div> -->    
+        </div>   
             `
            
      )
